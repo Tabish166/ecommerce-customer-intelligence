@@ -11,12 +11,9 @@
 ---
 
 ## 📌 Project Overview
-End-to-end data analytics project analyzing **525,000+ real transactions** 
-from a UK-based e-commerce retailer to uncover customer behaviour patterns, 
-identify revenue risks, and segment customers using Machine Learning.
+End-to-end data analytics project analyzing **525,000+ real transactions** from a UK-based e-commerce retailer to uncover customer behaviour patterns, identify revenue risks, and segment customers using Machine Learning.
 
-> **Key Finding:** £2,061,626 in revenue is at risk from churned and 
-> at-risk customer segments — equivalent to 23% of total revenue.
+> **Key Finding:** £2,061,626 in revenue is at risk from churned and at-risk customer segments — equivalent to 23% of total revenue.
 
 ---
 
@@ -37,32 +34,31 @@ identify revenue risks, and segment customers using Machine Learning.
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
 - **Machine Learning** — K-Means Clustering, RFM Scoring
 - **Visualization** — Tableau Public (interactive dashboard)
-- **Database** — SQL-style queries via Pandas
 - **Dataset** — UCI Online Retail II (525K+ rows, real-world data)
 
 ---
 
 ## 📁 Project Structure
 
-ecommerce-customer-intelligence/
-│
-├── 📓 notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_rfm_segmentation.ipynb
-│   └── 04_kmeans_clustering.ipynb
-│
-├── 📊 data/
-│   ├── ecommerce_clean.csv
-│   └── rfm_segments.csv
-│
-├── 📈 visualizations/
-│   ├── monthly_revenue.png
-│   ├── top_products.png
-│   ├── segments_pie.png
-│   └── kmeans_clusters.png
-│
-└── README.md
+    ecommerce-customer-intelligence/
+    │
+    ├── notebooks/
+    │   ├── 01_data_cleaning.ipynb
+    │   ├── 02_exploratory_analysis.ipynb
+    │   ├── 03_rfm_segmentation.ipynb
+    │   └── 04_kmeans_clustering.ipynb
+    │
+    ├── data/
+    │   ├── ecommerce_clean.csv
+    │   └── rfm_segments.csv
+    │
+    ├── visualizations/
+    │   ├── monthly_revenue.png
+    │   ├── top_products.png
+    │   ├── segments_pie.png
+    │   └── kmeans_clusters.png
+    │
+    └── README.md
 
 ---
 
@@ -84,30 +80,9 @@ ecommerce-customer-intelligence/
 
 ### 3️⃣ Revenue at Risk
 
----
-
-## 🔍 Key Insights
-
-### 1️⃣ Revenue Trend
-- Business generates **£8.83M** in annual revenue
-- **86.1%** concentrated in UK market — high geographic risk
-- Strong Q4 spike confirming **holiday/gifting season dependency**
-
-### 2️⃣ Customer Segmentation (RFM + K-Means)
-
-| Segment | Customers | Avg Spend | Action |
-|---------|-----------|-----------|--------|
-| VIP Whales | 5 | £215,544 | Dedicated relationship manager |
-| High Value Loyalists | 59 | £28,018 | Loyalty rewards program |
-| Core Customers | 3,201 | £1,711 | Regular engagement campaigns |
-| Churned | 1,047 | £597 | Win-back email campaign |
-
-### 3️⃣ Revenue at Risk
-
-Lost Customers:    £782,858
-At Risk Customers: £1,278,768
-─────────────────────────────
-Total at Risk:     £2,061,626  (23% of total revenue)
+    Lost Customers:     £782,858
+    At Risk Customers:  £1,278,768
+    Total at Risk:      £2,061,626  (23% of total revenue)
 
 ### 4️⃣ Product Intelligence
 - **White Hanging Heart T-Light Holder** — highest revenue AND quantity
@@ -123,16 +98,14 @@ Total at Risk:     £2,061,626  (23% of total revenue)
 
 ## 🚀 How to Run
 
-```bash
-# Clone the repo
-git clone https://github.com/Tabish166/ecommerce-customer-intelligence
+    # Clone the repo
+    git clone https://github.com/Tabish166/ecommerce-customer-intelligence
 
-# Install dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+    # Install dependencies
+    pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
-# Run notebooks in order
-jupyter notebook
-```
+    # Run notebooks in order
+    jupyter notebook
 
 ---
 
